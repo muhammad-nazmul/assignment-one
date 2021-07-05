@@ -5,6 +5,8 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/* ========= HEADER  ========= */
+
 .navber {
     width: 100%;
     background: #efefef;
@@ -41,15 +43,12 @@
   font-size:1.2rem;
   font-weight: 600;
 }
-.nav-item::after{
-    content: '';
+
+main{
     width:100%;
-    left:0;
-    right: 0;
-
+    display: flex;
+    justify-content: space-around;
 }
-
-main {width: 100%;}
 
 .main-info {
     width: 50%;
@@ -90,4 +89,57 @@ button.btn-one a{
     text-transform: capitalize;
     font-size:16px;
     font-weight: 600;
+}
+
+.main-img{
+    width: 50%;
+    padding-top:60px;
+    
+}
+
+.main-img img{
+    width: 450px;
+    border-radius: 6px;
+}
+
+/* ============= ABOUT =========== */
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50vh;
+    background: #e8e8e8;
+    margin-top:40px;
+    align-items: center;
+}
+
+.about-img{
+    width: 50%;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.about-img img {
+    width: 300px;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.about-description{
+    width:50%;
+}
+
+.about-description h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #828282;
+}
+
+.about-description p {
+    padding: 20px 0px;
+    width: 350px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #8c8c8c;
 }
