@@ -143,3 +143,173 @@ button.btn-one a{
     line-height: 18px;
     color: #8c8c8c;
 }
+
+.recipies-title h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #8e8e8e;
+    margin-top:40px;
+}
+
+.recipies-title p {
+    /* width: 200px; */
+    text-align: center;
+    padding: 20px 354px 2px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: darkgrey;
+    line-height: 22px;
+}
+
+.recipies {
+    width: 80%;
+    margin: 60px;
+    display: flex;
+    margin-left: 175px;
+    /* justify-content: space-around; */
+}
+
+.recipies-one{
+    margin-left:60px;
+    width: 260px;
+    height: 340px;
+    text-align: center;
+    box-shadow: 0px 0px 10px -4px;
+    padding-top: 15px;
+    border: 15px solid #f1f1f1;
+    border-radius: 20px;
+}
+
+.recipies-two{
+    margin-left:60px;
+    width: 260px;
+    height: 340px;
+    text-align: center;
+    box-shadow: 0px 0px 10px -4px;
+    padding-top: 15px;
+    border: 15px solid #f1f1f1;
+    border-radius: 20px;
+}
+
+.recipies-three{
+    margin-left:60px;
+    width: 260px;
+    height: 340px;
+    text-align: center;
+    box-shadow: 0px 0px 10px -4px;
+    padding-top: 15px;
+    border: 15px solid #f1f1f1;
+    border-radius: 20px;
+}
+
+.recipies-one img{
+    width:200px;
+    border-radius: 15px;
+    
+}
+
+
+.recipies-two img{
+    width:220px;
+    border-radius: 15px;
+    
+}
+
+.recipies-three img{
+    width:200px;
+    border-radius: 15px;
+   
+}
+
+.recipies-one h2 {
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+
+.recipies-one p {
+    color: #868686;
+}
+
+.recipies-two h2 {
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+
+.recipies-two p {
+    color: #868686;
+}
+
+.recipies-three h2 {
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+
+.recipies-three p {
+    color: #868686;
+}
+
+/* =========== COUNT  =========== */
+
+.count {
+    width: 80%;
+    height: 170px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 3px 10px -4px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.subscribe h1 {
+    padding: 10px 0px;
+    color: #989898;
+}
+/* ============ FOOTER ============== */
+
+.footer {
+    width: 100%;
+    background: #353535;
+    margin-bottom: 40px;
+}
+
+.footer h1 {
+    text-align: center;
+    align-items: center;
+    color: orangered;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top:25px;
+}
+
+input#lname {
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    display: inherit;
+    margin-left: 40px;
+    padding:5px;
+}
+
+label.text-change {
+    margin-left: 40px;
+    font-size: 18px;
+    color: orangered;
+}
+
+input.button-sumit {
+    padding: 9px 35px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(255, 123, 0, 0.993) , rgb(255, 0, 0));
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
